@@ -18,3 +18,30 @@ ul {
     padding: 0 15px;
     margin: 0 auto;
 }
+
+.header {
+    height: 100vh;
+    background: rgba(0, 195, 255, 0.875);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.nav-list {
+    display: flex;
+    column-gap: 30px;
+}
+
+.nav-link {
+    color: #fff;
+    font-size: 30px;
+}
